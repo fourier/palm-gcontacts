@@ -1,21 +1,11 @@
-# Converter of the Google Contacts CSV export to Palm Pilot CSV
+# Give Up GitHub
 
-In order to compile one must have OSX, sbcl, quicklisp installed and configured.
-Run 
-```
-make
-```
-to compile.
-Usage: 
+This project has given up GitHub.  ([See Software Freedom Conservancy's *Give Up  GitHub* site for details](https://GiveUpGitHub.org).)
 
-```
-./palm-gcontacts google-contacts.csv output.csv
-```
-where google-contacts.csv - path to the exported Google Contacts in Google CSV format.
-output.csv - file ready to be pilot-address'ed to Palm Pilot.
+You can now find this project at [https://codeberg.org/fourier/palm-gcontacts](https://codeberg.org/fourier/palm-gcontacts) instead.
 
-Note that it is one-way export, the data from Palm could not be imported back to Google Contacts (as some fields are lost)
+Any use of this project's code by GitHub Copilot, past or present, is done without our permission.  We do not consent to GitHub's use of this project's code in Copilot.
 
-The input encoding is UTF-8, the Palm CSV file is in CP1251.
-The Swedish characters will be replaced with ASCII ones.
-and their corresponding capital versions.
+Join us; you can [give up GitHub](https://GiveUpGitHub.org) too!
+
+![Logo of the GiveUpGitHub campaign](https://sfconservancy.org/img/GiveUpGitHub.png)
